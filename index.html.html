@@ -1,0 +1,126 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .header{
+            padding: 80px;
+            text-align: center;
+            background-color: lightslategray;
+            color: white;
+        }
+
+        .header h1{
+            font-size: 40px;
+        }
+
+        .navbar{
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a.right{
+            float: right;
+        }
+
+        .navbar a:hover{
+            background-color: #ddd;
+            color: rgb(43, 35, 35);
+        }
+
+        .row{
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+        }
+
+        .side{
+            -ms-flex: 70%;
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .main{
+            -ms-flex: 70%;
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .fakeimg{
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .footer{
+            padding: 20px;
+            text-align: center;
+            background-color: lightslategray;
+        }
+
+        @media screen and(max-width:700px) {
+            .row{
+                flex-direction:column;
+            }
+        }
+
+        @media screen and(max-width:400px) {
+            .navbar a{
+                float:none;
+                width: 100%;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>patil tour.com</h1>
+        <p>patil tour company</p>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>patil tour.com</h2>
+            <h4>patil tour company</h4>
+            <div class="fakeimg"style="height:200px;"><img src=".C:\Users\comp\Downloads\all tour img.jpg" alt="girl image" height="170px";width="390px"></div>
+            <p>all india tourism.</p>
+            <div class="fakeimg"style="height:60px;">all india</div><br>
+            <div class="fakeimg"style="height:60px;">places</div><br>
+            <div class="fakeimg"style="height:60px;">planing routs</div>
+        </div>
+        <div class="main">
+           
+            <h5>Letest tour in our company offer</h5>
+            <div class="fakeimg"style="height:200px;"><img src="images/Computer.jpg"alt="web image"height="170px;"width="860px;"></div>
+            <p>tour package</p>        
+            <br>
+            <h2>packages</h2>
+            <div class="fakeimg"style="height:200px;"><img src="./Images/pexels-divinetechygirl-1181263.jpg"alt="webd"height="170px;" width="900px;"></div>
+            <p>tour package include services Hotels, Rooms,etc</p>
+        </div>
+        </div>
+    <div class="footer">
+        <h2>© Copyright girish patil,2024</h2>
+    </div>
+</body>
+</html>
